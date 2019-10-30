@@ -1,0 +1,39 @@
+.hero-section{  
+  height: 70vh;
+  width: 100vw;
+}
+
+/* .slider{
+  display: flex;
+  overflow-y: none;
+  z-index: 1;
+}
+
+.slider img{
+  z-index: 100;
+  width: 30vw;
+} */
+
+.carousel{
+  padding: 0 130px;
+  overflow-y:none;
+}
+
+.carousel-container {
+	overflow: hidden;
+	height: 270px;
+}
+.carousel-list{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.carousel-item{
+  flex: 1 0 450px;
+  height: 271px;
+	background-color: #ccc;
+	text-align: center;
+	line-height: 100px;
+	border: 1px solid #fff;
+}
